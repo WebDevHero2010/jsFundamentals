@@ -1,0 +1,40 @@
+body{
+    background-color:#77acf1;
+}
+
+#header{
+    display: flex;
+    height: 450px;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    display: flex;
+    height: 100%;
+
+}
+
+.container > div:nth-child(1){
+    flex:1;
+}
+
+.container > div:nth-child(2){
+    flex:3;
+}
+
+
+img{
+    max-width: 250px;
+    border-radius: 50%;
+    cursor:grabbing;
+
+}
+
+.roundImage {
+    border-radius: 50%;
+}
+
+li{
+    list-style-type: none;
+}
